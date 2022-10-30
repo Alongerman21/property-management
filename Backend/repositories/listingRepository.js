@@ -8,7 +8,7 @@ module.exports.findAllListingsByUserId = async (userId) =>
   })
     .lean()
     .populate("owner")
-    .populate("residents");
+    .populate("tenants");
 
 module.exports.addListing = async (litsing) => {
   return await Listing.findOneAndUpdate(

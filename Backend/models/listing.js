@@ -6,8 +6,13 @@ const listingSchema = new mongoose.Schema({
   address: { type: String, required: true },
   city: { type: String, required: true },
   price: { type: String, required: true },
+  x: { type: Number, required: true },
+  y: { type: Number, required: true },
+  startDate: { type: String },
+  endDate: { type: String },
   thumbnail: { type: String },
-  residents: [
+  documents: { type: String },
+  tenants: [
     { type: mongoose.Schema.Types.ObjectId, ref: "Resident", default: [] },
   ],
   owner: { type: mongoose.Schema.Types.ObjectId, ref: "User" },

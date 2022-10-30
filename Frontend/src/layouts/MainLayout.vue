@@ -8,9 +8,9 @@
           />
         </q-avatar>
 
-        <q-toolbar-title>Real Estate</q-toolbar-title>
+        <q-toolbar-title>Property Management</q-toolbar-title>
 
-        <q-btn round flat icon="logout" @click="logout()" />
+        <q-btn label="Log out" flat icon="logout" @click="logout()" />
       </q-toolbar>
     </q-header>
     <q-page-container>
