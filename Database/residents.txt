@@ -1,0 +1,31 @@
+ db.residents.insertMany([{
+"_id": "633b0661344f36c250a62c41",
+    "name" : "Asaf Zanai",
+"owner" : ObjectId("633b111073646f19f3ca3933"),
+	"url" : "https://xsgames.co/randomusers/assets/avatars/male/51.jpg"
+},
+{
+"_id": "633b0661344f36c250a62c42",
+    "name" : "Ofir Shriki",
+"owner":ObjectId("633b111073646f19f3ca3933"),
+	"url" : "https://xsgames.co/randomusers/assets/avatars/female/22.jpg"
+},
+{
+"_id": "633b0661344f36c250a62c43",
+    "name" : "Yarden Nazaretski",
+"owner":ObjectId("633b111073646f19f3ca3933"),
+	"url" : "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+},
+{
+"_id": "633b0661344f36c250a62c44",
+    "name" : "Daphne Fridler",
+"owner":ObjectId("633b111073646f19f3ca3933"),
+	"url" : "https://xsgames.co/randomusers/assets/avatars/female/1.jpg"
+},
+{
+"_id": "633b0661344f36c250a62c45",
+    "name" : "Harel Hen",
+"owner":ObjectId("633b111073646f19f3ca3933"),
+	"url" : "https://xsgames.co/randomusers/assets/avatars/male/23.jpg"
+}
+]);

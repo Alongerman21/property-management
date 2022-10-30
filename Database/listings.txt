@@ -1,0 +1,27 @@
+ db.listings.insertMany([
+{
+    "name": "Two bedroom apartment",
+    "description": "two bedroom apartment with view to the sea",
+    "address": "mivza kadesh 17",
+    "city": "nes ziona",
+    "price": "1,200,000$",
+    "thumbnail":
+      "https://images.ctfassets.net/pg6xj64qk0kh/2r4QaBLvhQFH1mPGljSdR9/39b737d93854060282f6b4a9b9893202/camden-paces-apartments-buckhead-ga-terraces-living-room-with-den_1.jpg",
+    "residents": [
+    ObjectId("633b0661344f36c250a62c41"),ObjectId("633b0661344f36c250a62c42"),ObjectId("633b0661344f36c250a62c43"),ObjectId("633b0661344f36c250a62c44")
+    ],
+"owner":ObjectId("633b111073646f19f3ca3933")
+  },
+   {"name": "Three bedroom apartment",
+    "description": "three rooms, great for families",
+    "address": "mivza kadesh 12",
+    "city": "rison letzion",
+    "price": "2,300,000$",
+    "thumbnail":
+      "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-living-(2)-hero.jpg?ext=.jpg",
+    "residents": [
+ObjectId("633b0661344f36c250a62c44"),ObjectId("633b0661344f36c250a62c43")
+    ],
+"owner":ObjectId("633b111073646f19f3ca3933")
+  }
+]);

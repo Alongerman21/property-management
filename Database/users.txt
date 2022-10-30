@@ -1,0 +1,12 @@
+ db.users.insertMany([
+{
+"_id":"633b111073646f19f3ca3933",
+    "name": "Shalom Asaiag",
+    "password": "123ABC",
+  },
+{
+"_id":"633b111073646f19f3ca3934",
+    "name": "Avenged Sevenfold",
+    "password": "555666",
+  }
+]);
